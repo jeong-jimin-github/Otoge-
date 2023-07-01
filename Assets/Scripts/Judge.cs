@@ -52,7 +52,7 @@ public class Judge : MonoBehaviour
                 }
             }
 
-            if (Time.time > notesManager.NotesTime[0] + 0.1f + GManager.instance.StartTime)//本来ノーツをたたくべき時間から0.2秒たっても入力がなかった場合
+            if (Time.time > notesManager.NotesTime[0] + 0.2f + GManager.instance.StartTime)//本来ノーツをたたくべき時間から0.2秒たっても入力がなかった場合
             {
                 deleteData();
                 message(3);
@@ -65,7 +65,7 @@ public class Judge : MonoBehaviour
     }
     void Judgement(float timeLag)
     {
-        if (timeLag <= 0.06)//本来ノーツをたたくべき時間と実際にノーツをたたいた時間の誤差が0.1秒以下だったら
+        if (timeLag <= 0.1)//本来ノーツをたたくべき時間と実際にノーツをたたいた時間の誤差が0.1秒以下だったら
         {
             deleteData();
             message(0);
@@ -77,7 +77,7 @@ public class Judge : MonoBehaviour
         }
         else
         {
-            if (timeLag <= 0.08)//本来ノーツをたたくべき時間と実際にノーツをたたいた時間の誤差が0.15秒以下だったら
+            if (timeLag <= 0.15)//本来ノーツをたたくべき時間と実際にノーツをたたいた時間の誤差が0.15秒以下だったら
             {
                 deleteData();
                 message(1);
@@ -89,7 +89,7 @@ public class Judge : MonoBehaviour
             }
             else
             {
-                if (timeLag <= 0.1)//本来ノーツをたたくべき時間と実際にノーツをたたいた時間の誤差が0.2秒以下だったら
+                if (timeLag <= 0.2)//本来ノーツをたたくべき時間と実際にノーツをたたいた時間の誤差が0.2秒以下だったら
                 {
                     deleteData();
                     message(2);
