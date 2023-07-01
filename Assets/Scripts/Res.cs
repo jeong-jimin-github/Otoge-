@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class Res : MonoBehaviour
 {
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     private void Start()
     {
         SetResolution(); // 초기에 게임 해상도 고정
