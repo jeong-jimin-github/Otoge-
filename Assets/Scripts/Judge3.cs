@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Judge1 : MonoBehaviour
+public class Judge3 : MonoBehaviour
 {
     //変数の宣言
     [SerializeField] private GameObject[] MessageObj;//プレイヤーに判定を伝えるゲームオブジェクト
@@ -35,7 +35,7 @@ public class Judge1 : MonoBehaviour
         if (GManager.instance.Start)
         {
 
-            if (Input.GetKeyDown(KeyCode.D))//〇キーが押されたとき
+            if (Input.GetKeyDown(KeyCode.K))//〇キーが押されたとき
             {
                 if (isOK == true)
                 {

@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 804581992}
   - component: {fileID: 804581994}
   - component: {fileID: 804581993}
+  - component: {fileID: 804581996}
   - component: {fileID: 804581995}
   m_Layer: 5
   m_Name: Very Good Rhythm Game
@@ -521,10 +522,24 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: a475588c96af67640b65d5c759b739f4, type: 2}
   - {fileID: 7400000, guid: e2ef8028e4411ea4ba0412a174f47d27, type: 2}
+  - {fileID: 7400000, guid: 2adbd5499b521af438c6398f3f2f0aa7, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 1
   m_CullingType: 0
+--- !u!114 &804581996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804581991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215fd847e4617ec4796c4c5df4511305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani: {fileID: 804581995}
 --- !u!1 &1008801935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1286,7 @@ GameObject:
   - component: {fileID: 1922320104}
   - component: {fileID: 1922320106}
   - component: {fileID: 1922320105}
+  - component: {fileID: 1922320108}
   - component: {fileID: 1922320107}
   m_Layer: 5
   m_Name: Enter
@@ -1409,7 +1425,21 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: a475588c96af67640b65d5c759b739f4, type: 2}
   - {fileID: 7400000, guid: e2ef8028e4411ea4ba0412a174f47d27, type: 2}
+  - {fileID: 7400000, guid: 2adbd5499b521af438c6398f3f2f0aa7, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &1922320108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922320103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215fd847e4617ec4796c4c5df4511305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani: {fileID: 1922320107}
