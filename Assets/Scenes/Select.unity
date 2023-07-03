@@ -182,7 +182,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u25B3\nUnwelcome School\n\u25BD\n"
+  m_text: 'Unwelcome School
+
+    (Blue Archive OST)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 221b8659a983a21438eccc047c3564b3, type: 2}
   m_sharedMaterial: {fileID: -2555453812195287625, guid: 221b8659a983a21438eccc047c3564b3, type: 2}
@@ -1244,7 +1246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC2DC\uC791\uD558\uB824\uBA74 ENTER\uB97C \uB204\uB974\uC138\uC694"
+  m_text: "\uC2DC\uC791\uD558\uB824\uBA74 ENTER\uB97C \uB204\uB974\uC138\uC694."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4fc24f6ec0c15aa4ba461a8cb112509c, type: 2}
   m_sharedMaterial: {fileID: -3848779342454269869, guid: 4fc24f6ec0c15aa4ba461a8cb112509c, type: 2}
@@ -1271,8 +1273,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
