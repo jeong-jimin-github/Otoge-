@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12735017, g: 0.13418925, b: 0.121154964, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -672,7 +672,7 @@ MonoBehaviour:
   decayDamp: 0.055
   useColorGradient: 1
   colorMin: {r: 0.014597749, g: 0.0543909, b: 0.13235295, a: 1}
-  colorMax: {r: 1, g: 1, b: 1, a: 1}
+  colorMax: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
   colorValueCurve:
     serializedVersion: 2
     m_Curve:
@@ -930,7 +930,7 @@ MonoBehaviour:
   attackDamp: 0.45
   decayDamp: 0.25
   useColorGradient: 0
-  colorMin: {r: 0.9264706, g: 0.9264706, b: 0.9264706, a: 1}
+  colorMin: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
   colorMax: {r: 0.49264705, g: 0.49264705, b: 0.49264705, a: 1}
   colorValueCurve:
     serializedVersion: 2
@@ -1164,8 +1164,8 @@ MonoBehaviour:
   attackDamp: 0.45
   decayDamp: 0.25
   useColorGradient: 1
-  colorMin: {r: 1, g: 1, b: 1, a: 1}
-  colorMax: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+  colorMin: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+  colorMax: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
   colorValueCurve:
     serializedVersion: 2
     m_Curve:
