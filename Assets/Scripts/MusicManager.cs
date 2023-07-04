@@ -8,8 +8,10 @@ public class MusicManager : MonoBehaviour
     AudioClip Music;
     string songName;
     bool played;
+    bool IsPause;
     void Start()
     {
+        IsPause = false;
         GManager.instance.Start = false;
         songName = "Unwelcome School";
         audioa = GetComponent<AudioSource>();
@@ -26,6 +28,24 @@ public class MusicManager : MonoBehaviour
             GManager.instance.StartTime = Time.time;
             played = true;
             audioa.PlayOneShot(Music);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            /*일시정지 활성화*/
+            if (IsPause == false)
+            {
+                audioa.Pause();
+                IsPause = true;
+                return;
+            }
+ 
+            /*일시정지 비활성화*/
+            if (IsPause == true)
+            {
+                audioa.UnPause();
+                IsPause = false;
+                return;
+            }
         }
     }
 }
