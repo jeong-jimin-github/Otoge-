@@ -32,6 +32,7 @@ public class NotesManager : MonoBehaviour
     public List<int> NoteType = new List<int>();
     public List<float> NotesTime = new List<float>();
     public List<GameObject> NotesObj = new List<GameObject>();
+    public string SongName;
 
     [SerializeField] private float NotesSpeed;
     [SerializeField] GameObject noteObj;
@@ -39,7 +40,7 @@ public class NotesManager : MonoBehaviour
     void OnEnable()
     {
         noteNum = 0;
-        songName = "Unwelcome School";
+        songName = SongName;
         Load(songName);
     }
 
