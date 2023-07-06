@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18029517, g: 0.22573823, b: 0.30694664, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2290,8 +2290,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Score
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a59a6249f14968049bf5229037010298, type: 2}
-  m_sharedMaterial: {fileID: 2597525805678144050, guid: a59a6249f14968049bf5229037010298, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4fc24f6ec0c15aa4ba461a8cb112509c, type: 2}
+  m_sharedMaterial: {fileID: -3848779342454269869, guid: 4fc24f6ec0c15aa4ba461a8cb112509c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2770,7 +2770,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1280, y: 720}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1829474352
 MonoBehaviour:
@@ -2792,7 +2792,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3adf444b1517ed249b85d0b37d4268da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb64657205d404967a500454a6dae3ee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

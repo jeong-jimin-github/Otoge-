@@ -43,6 +43,7 @@ public class Pause11 : MonoBehaviour
             {
                 Time.timeScale = 1;
                 IsPause = false;
+                GManager.instance.combo = 0;
                 SceneManager.LoadScene("Select 1");
             }
         }
@@ -52,6 +53,7 @@ public class Pause11 : MonoBehaviour
             {
                 Time.timeScale = 1;
                 IsPause = false;
+                GManager.instance.combo = 0;
                 SceneManager.LoadScene("Game 1");
             }
         }
