@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18029517, g: 0.22573823, b: 0.30694664, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -533,6 +533,11 @@ MonoBehaviour:
   - {fileID: 1900121730130519427, guid: b508a152d88bef449a8b2be1f763c1be, type: 3}
   - {fileID: 8227781975273751662, guid: ae4eaeaa9019acf45901679f72cc9e51, type: 3}
   - {fileID: 4881651439584615847, guid: ff3209b83dbdb204aa67214f9998c6f0, type: 3}
+  Effects:
+  - {fileID: 2173118512815187792, guid: 5e1a16f2dd321194da300036d01aa541, type: 3}
+  - {fileID: 6251806009166118898, guid: b4a845d321496784e8a133aceb97a429, type: 3}
+  - {fileID: 6251806009166118898, guid: ebfff3aea959f0f4ca5f09f8beda5c43, type: 3}
+  - {fileID: 6251806009166118898, guid: 403e889b5a5af9843b335eef53434a88, type: 3}
   notesManager: {fileID: 0}
   Combo: {fileID: 1450543407}
   Score: {fileID: 291104600}
@@ -1651,6 +1656,11 @@ MonoBehaviour:
   - {fileID: 1900121730130519427, guid: b508a152d88bef449a8b2be1f763c1be, type: 3}
   - {fileID: 8227781975273751662, guid: ae4eaeaa9019acf45901679f72cc9e51, type: 3}
   - {fileID: 4881651439584615847, guid: ff3209b83dbdb204aa67214f9998c6f0, type: 3}
+  Effects:
+  - {fileID: 2173118512815187792, guid: 5e1a16f2dd321194da300036d01aa541, type: 3}
+  - {fileID: 6251806009166118898, guid: b4a845d321496784e8a133aceb97a429, type: 3}
+  - {fileID: 6251806009166118898, guid: ebfff3aea959f0f4ca5f09f8beda5c43, type: 3}
+  - {fileID: 6251806009166118898, guid: 403e889b5a5af9843b335eef53434a88, type: 3}
   notesManager: {fileID: 0}
   Combo: {fileID: 1450543407}
   Score: {fileID: 291104600}
@@ -1863,6 +1873,11 @@ MonoBehaviour:
   - {fileID: 1900121730130519427, guid: b508a152d88bef449a8b2be1f763c1be, type: 3}
   - {fileID: 8227781975273751662, guid: ae4eaeaa9019acf45901679f72cc9e51, type: 3}
   - {fileID: 4881651439584615847, guid: ff3209b83dbdb204aa67214f9998c6f0, type: 3}
+  Effects:
+  - {fileID: 2173118512815187792, guid: 5e1a16f2dd321194da300036d01aa541, type: 3}
+  - {fileID: 6251806009166118898, guid: b4a845d321496784e8a133aceb97a429, type: 3}
+  - {fileID: 6251806009166118898, guid: ebfff3aea959f0f4ca5f09f8beda5c43, type: 3}
+  - {fileID: 6251806009166118898, guid: 403e889b5a5af9843b335eef53434a88, type: 3}
   notesManager: {fileID: 0}
   Combo: {fileID: 1450543407}
   Score: {fileID: 291104600}
@@ -2587,6 +2602,11 @@ MonoBehaviour:
   - {fileID: 1900121730130519427, guid: b508a152d88bef449a8b2be1f763c1be, type: 3}
   - {fileID: 8227781975273751662, guid: ae4eaeaa9019acf45901679f72cc9e51, type: 3}
   - {fileID: 4881651439584615847, guid: ff3209b83dbdb204aa67214f9998c6f0, type: 3}
+  Effects:
+  - {fileID: 2173118512815187792, guid: 5e1a16f2dd321194da300036d01aa541, type: 3}
+  - {fileID: 6251806009166118898, guid: b4a845d321496784e8a133aceb97a429, type: 3}
+  - {fileID: 6251806009166118898, guid: ebfff3aea959f0f4ca5f09f8beda5c43, type: 3}
+  - {fileID: 6251806009166118898, guid: 403e889b5a5af9843b335eef53434a88, type: 3}
   notesManager: {fileID: 0}
   Combo: {fileID: 1450543407}
   Score: {fileID: 291104600}
