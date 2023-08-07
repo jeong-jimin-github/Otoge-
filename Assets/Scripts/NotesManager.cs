@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
+using System.IO;
 
 [Serializable]
 public class Data
@@ -40,13 +41,16 @@ public class NotesManager : MonoBehaviour
     void OnEnable()
     {
         noteNum = 0;
-        songName = SongName;
+        songName = Resources.LoadAll("Maps")[GameObject.Find("SongID").GetComponent<SongID>().ID].name;
         Load(songName);
     }
 
     private void Load(string SongName)
     {
-        string inputString = Resources.Load<TextAsset>(SongName).ToString();
+        string co = File.ReadAllText(Application.streamingAssetsPath + "/Config/Config.txt");
+        NotesSpeed = Int32.Parse(co);
+        Debug.Log(Int32.Parse(co));
+        string inputString = Resources.Load<TextAsset>("Maps/" + SongName).ToString();
         Data inputJson = JsonUtility.FromJson<Data>(inputString);
 
         noteNum = inputJson.notes.Length;

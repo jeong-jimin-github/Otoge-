@@ -13,7 +13,7 @@ public class MusicManager : MonoBehaviour
     {
         IsPause = false;
         GManager.instance.Start = false;
-        songName = "Unwelcome School";
+        songName = Resources.LoadAll("Maps")[GameObject.Find("SongID").GetComponent<SongID>().ID].name;
         audioa = GetComponent<AudioSource>();
         Music = (AudioClip)Resources.Load("Musics/" + songName);
         played = false;

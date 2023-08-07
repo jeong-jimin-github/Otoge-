@@ -44,6 +44,7 @@ public class Pause : MonoBehaviour
                 Time.timeScale = 1;
                 IsPause = false;
                 GManager.instance.combo = 0;
+                GameObject.Find("Modoru").GetComponent<Modoru>().GametoSel = true;
                 SceneManager.LoadScene("Select");
             }
         }

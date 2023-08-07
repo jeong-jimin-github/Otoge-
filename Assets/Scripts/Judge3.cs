@@ -7,7 +7,6 @@ public class Judge3 : MonoBehaviour
 {
     //変数の宣言
     [SerializeField] private GameObject[] MessageObj;//プレイヤーに判定を伝えるゲームオブジェクト
-    [SerializeField] private GameObject[] Effects;//プレイヤーに判定を伝えるゲームオブジェクト
     [SerializeField] NotesManager notesManager;//スクリプト「notesManager」を入れる変数
     public TextMeshProUGUI Combo;
     public TextMeshProUGUI Score;
@@ -38,7 +37,6 @@ public class Judge3 : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.K))//〇キーが押されたとき
             {
-                Instantiate(Effects[3]);
                 if (isOK == true)
                 {
                     if (Vector3.Distance(gameObject.transform.position, on.transform.position) < 1)
@@ -63,7 +61,7 @@ public class Judge3 : MonoBehaviour
                         Score.text = GManager.instance.score.ToString("D7");
                         Destroy(on);
                     }
-                    else if (Vector3.Distance(gameObject.transform.position, on.transform.position) < 2)
+                    else if (Vector3.Distance(gameObject.transform.position, on.transform.position) < 3)
                     {
                         Debug.Log("OK");
                         message(2);
