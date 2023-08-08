@@ -7,7 +7,7 @@ public class SelImage : MonoBehaviour
 {
     public Image Image;
     public Sprite Unwelcome;
-    public Sprite Ahoy;
+    public Sprite UN;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class SelImage : MonoBehaviour
         int kyoku = GameObject.Find("SongID").GetComponent<SongID>().ID;
         if (kyoku == 0)
         {
-            Image.sprite = Ahoy;
+            Image.sprite = UN;
         }
         if (kyoku == 1)
         {

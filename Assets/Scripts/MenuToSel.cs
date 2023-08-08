@@ -18,9 +18,9 @@ public class MenuToSel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.touchCount > 0)
         {
             Invoke("gotosel", 1);
         }
-        }
+    }
 }

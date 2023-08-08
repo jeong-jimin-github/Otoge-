@@ -47,9 +47,6 @@ public class NotesManager : MonoBehaviour
 
     private void Load(string SongName)
     {
-        string co = File.ReadAllText(Application.streamingAssetsPath + "/Config/Config.txt");
-        NotesSpeed = Int32.Parse(co);
-        Debug.Log(Int32.Parse(co));
         string inputString = Resources.Load<TextAsset>("Maps/" + SongName).ToString();
         Data inputJson = JsonUtility.FromJson<Data>(inputString);
 

@@ -11,12 +11,10 @@ public class Notes : MonoBehaviour
 
     private void Start()
     {
-        string co = Resources.Load<TextAsset>("Config/Config").ToString();
-        NoteSpeed = Int32.Parse(co);
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.touchCount > 0)
         {
             start = true;
         }

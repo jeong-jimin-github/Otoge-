@@ -5,7 +5,7 @@ using UnityEngine;
 public class SelMusic : MonoBehaviour
 {
     public AudioSource AS;
-    public AudioClip Ahoy;
+    public AudioClip UN;
     public AudioClip Unswelcome;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class SelMusic : MonoBehaviour
         int kyoku = GameObject.Find("SongID").GetComponent<SongID>().ID;
         if (kyoku == 0)
         {
-            AS.clip = Ahoy;
+            AS.clip = UN;
         }
         if (kyoku == 1)
         {

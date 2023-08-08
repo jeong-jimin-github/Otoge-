@@ -22,7 +22,7 @@ public class MusicManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !played)
+        if (Input.touchCount > 0 && !played)
         {
             GManager.instance.Start = true;
             GManager.instance.StartTime = Time.time;
